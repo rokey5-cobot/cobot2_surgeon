@@ -15,7 +15,7 @@ from std_msgs.msg import String
 
 # .env 파일 로드
 # load_dotenv(Path(__file__).resolve().parent / ".env")
-OPENAI_API_KEY = "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"
+# OPENAI_API_KEY =
 
 class STTMacVAD:
     def __init__(self, api_key: str, samplerate: int = 16000, device=None):
