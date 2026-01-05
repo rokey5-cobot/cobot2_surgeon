@@ -7,7 +7,7 @@ from rclpy.node import Node
 from std_msgs.msg import String,Bool
 
 # API 키 (새로 발급받은 키로 꼭 바꾸세요!)
-OPENAI_API_KEY = "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"
+# OPENAI_API_KEY =
  
 
 class RealVoiceServer(Node):
